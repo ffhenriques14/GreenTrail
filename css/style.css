@@ -1,0 +1,1083 @@
+/* Fontes de texto (Titulos, Berlin Sans FB || Texto, Neuzeit Grotesk ) */
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb');
+@import url('https://db.onlinewebfonts.com/c/24ee22b1aca25a7d83f28d63c4093f8e?family=Neuzeit+Grotesk+Regular');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}    */
+
+/* div {
+    border: 2px solid red;
+} */
+
+body {
+    background-image: url("../images/bg_img_novo.svg");
+}
+
+.image_profile_home {
+    height: 30px;
+}
+
+/* Fonts, Text, etc */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Berlin Sans FB', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px
+}
+
+h3 {
+    font-size: 20px
+}
+
+h3 span {
+    font-family: 'Berlin Sans FB', sans-serif;
+    font-size: 20px
+}
+
+p,
+a,
+span,
+strong {
+    font-family: 'Neuzeit Grotesk', sans-serif;
+    font-size: 12.8px;
+    margin-bottom: 0;
+}
+
+a {
+    color: #5C7345;
+}
+
+.input-text {
+    font-family: 'Neuzeit Grotesk', sans-serif;
+    font-size: 12.8px;
+}
+
+.buttons-text {
+    font-family: 'Neuzeit Grotesk', sans-serif;
+    font-size: 16px;
+}
+
+.buttons-text2 {
+    font-family: 'Berlin Sans FB', sans-serif;
+    font-size: 12.8px;
+}
+
+.placeholder-text::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Neuzeit Grotesk', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0, 50%);
+}
+
+.placeholder-text:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-family: 'Neuzeit Grotesk', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0, 50%);
+}
+
+.placeholder-text::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-family: 'Neuzeit Grotesk', sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0, 50%);
+}
+
+/* background do website */
+.background_sections1 {
+    background-image: url("../images/bg_img_novo.svg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: auto;
+}
+
+/* background de secções como "Junta-teNos"*/
+.background_sections2 {
+    background-image: url("../images/backnovo.svg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: auto;
+}
+
+/* Imagem do background do header */
+.backgroundImageHeader {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/travel-valley-city-mountains-nature.jpg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* Imagem do background do footer */
+.backgroundImageFooter {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/Footer.svg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* Imagem do background do header-popUp */
+.backgroundImageHeader-popUp {
+    background-image: url("../images/travel-valley-city-mountains-nature.jpg");
+    background-position: 10% 100%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+
+}
+
+/* Imagem do background do header-SobreNosPage */
+.backgroundImageHeader-SobreNosPage {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/HD-wallpaper-traveller-aquasixio-fantasy-luminos-guy-guitar-orange-blue-art-man-boy.jpg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* Imagem do background do header-GuiasPage */
+.backgroundImageHeader-GuiasPage {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/HD-wallpaper-van-van-artist-artwork-digital-art-artstation.jpg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* Imagem do background do header-OfertasPage */
+.backgroundImageHeader-OfertasPage {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/FamilyHolidays_shutterstock_1571106469.png");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* Imagem do background do header do header-ContactoPage"*/
+.backgroundImageHeader-ContactoPage {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/rk-ai-leonardo-diffusion-xl-beautiful-mountains-with-blue-sky-and-cl-0.jpg");
+    background-position: 100% 100%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* Imagem do background do header do header-FaqPage"*/
+.backgroundImageHeader-FaqPage {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/eda5739966cb33768d8ad0d77d7307ce.gif");
+    background-position: 100% 100%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* Imagem do background do header do header-Error404Page"*/
+.backgroundImageHeader-Error404Page {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/electrocuted-caveman-animation-404-error-page.gif");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+/* também é utilizada esta classe no footer */
+.headerSection {
+    height: 100vh;
+}
+
+.headerSection-OtherPages {
+    height: 50vh;
+}
+
+.imagem {
+    padding: 0;
+    margin: 0;
+}
+
+.img_dp_none1 {
+    display: none;
+}
+
+.img_dp_none2 {
+    display: none;
+}
+
+.bg_guias_section {
+    background-color: white;
+}
+
+.guia1_margins {
+    padding: 0;
+    margin: 0;
+}
+
+.div-text-footer {
+    display: none;
+}
+
+.juntese_img1 {
+    width: 343px;
+    height: 343px;
+}
+
+.logo-nav {
+    display: none;
+}
+
+/* Play Btn secção "Junta-teNos"*/
+.img-overlay-wrap {
+    position: relative;
+    /* display: inline-block; <= shrinks container to image size */
+    transition: transform 150ms ease-in-out;
+}
+
+.img-overlay-wrap img {
+    /* <= optional, for responsiveness */
+    /* display: block; */
+    max-width: 100%;
+
+}
+
+.img-overlay-wrap-svg {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+/* Icons */
+
+.icons {
+    position: relative;
+    bottom: 32px;
+}
+
+.icons_size {
+    width: 30px;
+    height: 27px;
+}
+
+.map_div {
+    background-color: #5C7345;
+    width: 58px;
+}
+
+.btn_seta_icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* size para os icons presentes no footer */
+.icons-footer {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-monkey {
+    height: 25px;
+}
+
+/* rectangulo que fica como background dos icons */
+.rectangle_green {
+    background-color: #5C7345;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 25px;
+}
+
+.rectangle_green-otherscard {
+    background-color: #5C7345;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 25px;
+    margin-left: 18px;
+}
+
+.rectangle_green-otherscard2 {
+    background-color: #5C7345;
+    width: 45px;
+    height: 45px;
+}
+
+/* Checkbox */
+.btncheck-edit {
+    border-color: #5C7345;
+    width: 30px;
+    height: 30px;
+}
+
+/* "hoover" ao clickar nos cards da secção "Explore" */
+.div-explore-selectores:focus {
+    background-color: #5C7345;
+    color: white;
+}
+
+/* Cards */
+
+.card-explore-pointer {
+    cursor: pointer;
+}
+
+.explore-cards-image {
+    height: 79px;
+}
+
+.img_card_sectionExplore {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 786px;
+}
+
+.img_card_sobrenos {
+    height: 314px;
+    object-fit: cover;
+}
+
+.explore_selected_card_desktop {
+    display: none;
+}
+
+.cards-selected {
+    position: relative;
+    margin-top: -120px
+}
+
+/* Cards-login-profile */
+.container {
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container .profile {
+    padding: 20px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 400px;
+}
+
+.container .profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.container .profile h3 {
+    margin: 5px 0;
+    font-size: 20px;
+    color: var(--black);
+}
+
+.container .profile p {
+    margin-top: 20px;
+    color: var(--black);
+    font-size: 20px;
+}
+
+.container .profile p a {
+    color: var(--red);
+}
+
+.container .profile p a:hover {
+    text-decoration: underline;
+}
+
+.selectors {
+    z-index: 1;
+    position: relative;
+}
+
+
+/* Hiker section related */
+.hiker_img {
+    width: 239px;
+    height: 239px;
+    object-fit: cover;
+    position: relative;
+}
+
+.hiker_section {
+    z-index: 1;
+}
+
+.hiker_section_mobile {
+    display: grid;
+}
+
+.hiker_section_desktop {
+    display: none;
+}
+
+.align_hiker {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: fit-content;
+}
+
+.align_hiker_mobile {
+    position: absolute;
+    margin-top: 50px;
+    width: fit-content;
+}
+
+.ofertas-section-desktop {
+    display: none;
+}
+
+
+/* Navegation Bar & Menu CSS */
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%);*/
+    clip-path: circle(25px at calc(0% + 45px) 45px);
+    /* background: #000; */
+    clip-path: circle(25px at calc(100% - 45px) 45px);
+}
+
+#active:checked~.wrapper {
+    clip-path: circle(75%);
+    background-image: url("../images/backnovo.svg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: auto;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.menu-btn {
+    position: fixed;
+    z-index: 3;
+    right: 20px;
+    /* left: 20px; */
+    top: 22px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    border: 3px solid;
+    /* border-color: #5C7345; */
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+#active:checked~.menu-btn {
+    color: #5C7345;
+}
+
+#active:checked~.menu-btn i:before {
+    content: "\f00d";
+}
+
+.menu-btn-register {
+    position: fixed;
+    z-index: 3;
+    right: 20px;
+    /* left: 20px; */
+    top: 16px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
+    /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+    /* background: linear-gradient(-45deg, #e3eefe 0%, #efddfb 100%); */
+    border: 3px solid;
+    /* border-color: #5C7345; */
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+#active:checked~.menu-btn-register {
+    color: #5C7345;
+}
+
+#active:checked~.menu-btn-register i:before {
+    content: "\f00d";
+}
+
+.wrapper ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+}
+
+.wrapper ul li {
+    margin: 15px 0;
+}
+
+.wrapper ul li a {
+    color: none;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0;
+    color: white;
+    border-radius: 100px;
+    background: transparent;
+    position: relative;
+    line-height: 40px;
+    transition: all 0.3s ease;
+    font-family: 'Berlin Sans FB', sans-serif;
+}
+
+.wrapper ul li a:after {
+    position: absolute;
+    content: "";
+    background: white;
+    /* background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0); */
+    /*background: linear-gradient(375deg, #1cc7d0, #2ede98);*/
+    /* background-color: green; */
+    background-color: white;
+    width: 120%;
+    height: 110%;
+    left: -9%;
+    top: -5%;
+    /* if the font is 'Oswald'*/
+    border-radius: 50px;
+    transform: scaleY(0);
+    z-index: -1;
+    /* animation: rotate 1.5s linear infinite; */
+    transition: transform 0.3s ease;
+}
+
+.wrapper ul li a:hover:after {
+    transform: scaleY(1);
+}
+
+.wrapper ul li a:hover {
+    color: #5C7345;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    color: #202020;
+}
+
+.content .title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content p {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+/* #button {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    background: #000;
+    cursor: pointer;
+}
+
+#button:hover {
+    background: rgb(0, 100, 100);
+} */
+
+#icon {
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 25px;
+    height: 100%;
+}
+
+/* MENU ICON */
+
+.lines,
+.lines:before,
+.lines:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    background: black;
+    transition: 0.3s;
+}
+
+.lines {
+    height: 3px;
+    margin-top: -2px;
+    top: 50%;
+}
+
+.lines:before,
+.lines:after {
+    content: '';
+    height: 100%;
+
+    /* Try different values here: .25rem, .5rem, .2rem, 5rem, 10rem... */
+    transform-origin: 5rem center;
+}
+
+.lines:before {
+    top: 8px;
+}
+
+.lines:after {
+    top: -8px;
+}
+
+
+.lines,
+.lines:before,
+.lines:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    background: white;
+    transition: 0.3s;
+}
+
+.lines {
+    height: 3px;
+    margin-top: -2px;
+    top: 50%;
+}
+
+.lines:before,
+.lines:after {
+    content: '';
+    height: 100%;
+
+    /* Try different values here: .25rem, .5rem, .2rem, 5rem, 10rem... */
+    transform-origin: 5rem center;
+}
+
+.lines:before {
+    top: 8px;
+}
+
+.lines:after {
+    top: -8px;
+}
+
+/* MENU ICON lines black */
+
+.lines-black,
+.lines-black:before,
+.lines-black:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    background: black;
+    transition: 0.3s;
+}
+
+.lines-black {
+    height: 3px;
+    margin-top: -2px;
+    top: 50%;
+}
+
+.lines-black:before,
+.lines-black:after {
+    content: '';
+    height: 100%;
+
+    /* Try different values here: .25rem, .5rem, .2rem, 5rem, 10rem... */
+    transform-origin: 5rem center;
+}
+
+.lines-black:before {
+    top: 8px;
+}
+
+.lines-black:after {
+    top: -8px;
+}
+
+
+.lines-black,
+.lines-black:before,
+.lines-black:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    background: black;
+    transition: 0.3s;
+}
+
+.lines-black {
+    height: 3px;
+    margin-top: -2px;
+    top: 50%;
+}
+
+.lines-black:before,
+.lines-black:after {
+    content: '';
+    height: 100%;
+
+    /* Try different values here: .25rem, .5rem, .2rem, 5rem, 10rem... */
+    transform-origin: 5rem center;
+}
+
+.lines-black:before {
+    top: 8px;
+}
+
+.lines-black:after {
+    top: -8px;
+}
+
+/* CLOSE ICON */
+
+.close {
+    transform: scale3d(0.8, 0.8, 0.8);
+}
+
+.close .lines {
+    background: transparent;
+}
+
+.close .lines:before,
+.close .lines:after {
+    top: 0;
+    transform-origin: 50% 50%;
+}
+
+.close .lines:before {
+    transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.close .lines:after {
+    transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.login_card {
+    width: 380px;
+
+}
+
+
+/* Media Queries -- BreakPoints */
+@media (min-width: 576px) {
+
+    .explore-cards-image {
+        height: 99px;
+    }
+
+    .hiker_img {
+        width: 439px;
+        height: 439px;
+        object-fit: cover;
+        position: relative;
+
+    }
+
+    .align_hiker_mobile {
+        position: absolute;
+        margin-top: 100px;
+        width: fit-content;
+    }
+
+    /* menu nav bar links text  */
+    .wrapper ul li a {
+        color: none;
+        text-decoration: none;
+        font-size: 35px;
+        font-weight: 500;
+        padding: 0;
+        color: white;
+        border-radius: 50px;
+        background: transparent;
+        position: relative;
+        line-height: 50px;
+        transition: all 0.3s ease;
+        font-family: 'Berlin Sans FB', sans-serif;
+    }
+
+    .logo-nav {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* Fonts, Text, etc */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: 'Berlin Sans FB', sans-serif;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 45px
+    }
+
+    h3 {
+        font-size: 35px
+    }
+
+    h3 span {
+        font-family: 'Berlin Sans FB', sans-serif;
+        font-size: 35px
+    }
+
+    p,
+    a,
+    span,
+    strong {
+        font-family: 'Neuzeit Grotesk', sans-serif;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .buttons-text {
+        font-family: 'Neuzeit Grotesk', sans-serif;
+        font-size: 20px;
+    }
+
+    .buttons-text2 {
+        font-family: 'Berlin Sans FB', sans-serif;
+        font-size: 16px;
+    }
+
+    .placeholder-text {
+        font-family: 'Neuzeit Grotesk', sans-serif;
+        font-size: 20px;
+        color: rgb(0, 0, 0, 50%);
+    }
+
+    /* Icons&Selos Footer size */
+    .icons-footer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-copyright {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon-monkey {
+        height: 45px;
+    }
+
+    .selos-footer {
+        width: 100px;
+        height: 100px;
+    }
+
+    .div-text-footer {
+        display: grid;
+    }
+
+    .cards-selected {
+        position: relative;
+        margin-top: -80px
+    }
+
+    .selectors {
+        z-index: 1;
+    }
+
+    .img_dp_none1 {
+        display: grid;
+    }
+
+    .guia1_margins {
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+    }
+
+    .bg_guias_section {
+        background-color: transparent;
+    }
+
+    .hiker_section_mobile {
+        display: none;
+    }
+
+    .hiker_section_desktop {
+        display: grid;
+    }
+
+    /* menu nav bar links text  */
+    .wrapper ul li a {
+        color: none;
+        text-decoration: none;
+        font-size: 50px;
+        font-weight: 500;
+        padding: 0;
+        color: white;
+        border-radius: 50px;
+        background: transparent;
+        position: relative;
+        line-height: 70px;
+        transition: all 0.3s ease;
+        font-family: 'Berlin Sans FB', sans-serif;
+    }
+
+    .login_card {
+        width: 500px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .explore-cards-image {
+        height: 110px;
+    }
+
+    .explore_selected_card_desktop {
+        display: block;
+    }
+
+    .explore_selected_card_phone {
+        display: none;
+    }
+
+    .explore_selected_card {
+        display: grid;
+        width: 400px;
+        position: absolute;
+        bottom: 200px;
+        left: 100px;
+    }
+
+    .img_dp_none2 {
+        display: grid;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .btn-filter {
+        display: none;
+    }
+
+    .ofertas-section-mobile {
+        display: none;
+    }
+
+    .ofertas-section-desktop {
+        display: block;
+    }
+
+    .btn_seta_icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .explore-cards-image {
+        height: 130px;
+    }
+
+    .explore_selected_card {
+        display: grid;
+        width: 500px;
+    }
+
+    .hiker_section_text {
+        position: relative;
+        left: 120px;
+    }
+
+    .headerSection-OtherPages {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .explore-cards-image {
+        height: 140px;
+    }
+
+    .img_card_sectionExplore {
+        height: 786px;
+
+    }
+
+    .explore_selected_card {
+        display: grid;
+        width: 550px;
+
+    }
+
+    .hiker_section_text {
+        position: relative;
+        left: 200px;
+    }
+}
